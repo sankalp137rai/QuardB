@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background: rgb(40,44,53);
+  min-height: "100vh";
+  min-width: "100vw";
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.header{
+  color: "#fff";
+  min-height: 100px;
+  display: flex;
+  min-width: 100vw;
+  justify-content: space-around;
+  align-items: stretch;
+  color: rgb(26, 236, 208);
+}
+
+.header h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100;
+  
+}
+
+.header h1 span {
+  font-size: medium;
+  color: rgb(202, 204, 204);
+}
+
+.header p span{
+  color: rgb(139, 148, 147);
+}
+
+.header a{
+  padding: 7px 10px;
+  background: rgb(26, 236, 208);
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: medium;
+}
+.headerContainerSecond{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.headerContainerSecond p {
+  margin: auto 20px;
+  padding: 7px;
+  border: 2px solid rgb(26, 236, 208);
+  border-radius: 50%;
+}
